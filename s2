@@ -1,0 +1,141 @@
+/* ======= GENERAL SETTINGS ======= */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+/* ======= NAVIGATION MENU ======= */
+nav {
+  text-align: right;
+  margin-bottom: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: blue;
+  margin-left: 10px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: red;
+}
+
+/* ======= HOME PAGE (TASK 1) ======= */
+.row {
+  display: flex;
+  gap: 10px;
+}
+.column {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* ======= FORM PAGE (TASK 4) ======= */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+input, select, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: lightblue;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button, input[type="submit"], input[type="reset"] {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: darkgreen;
+}
+
+/* ======= DATA PAGE (TASK 2) ======= */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: darkgreen;
+  color: white;
+}
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* ======= IMAGES PAGE (TASK 3) ======= */
+img {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+img:hover {
+  border-color: blue;
+  transform: scale(1.05);
+}
+
+/* ======= AUTHOR PAGE (TASK 5) ======= */
+.team-box {
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 60%;
+  margin: 20px auto;
+  padding: 15px 20px;
+  background-color: white;
+}
+.team-box ol {
+  list-style-type: upper-alpha;
+  font-weight: bold;
+}
+.links {
+  width: 60%;
+  margin: 20px auto;
+  line-height: 1.8;
+  text-align: left;
+}
+.links a {
+  text-decoration: none;
+  color: blue;
+}
+.links a:hover {
+  color: red;
+  text-decoration: underline;
+}

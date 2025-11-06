@@ -4,6 +4,7 @@
   <a href="images.html">Images</a>
   <a href="form.html">Form</a>
   <a href="author.html">Author</a>
+  <link rel="stylesheet" href="style.css">
 </nav>
 
 <h1>INFORMATION TECHNOLOGY</h1>
@@ -37,3 +38,4 @@
   <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>,
   <a href="https://www.ibm.com/topics/information-technology" target="_blank">IBM IT</a>
 </p>
+

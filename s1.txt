@@ -1,0 +1,68 @@
+/* ===== GENERAL ===== */
+body {
+  font-family: Arial;
+  margin: 20px;
+}
+
+/* ===== MENU ===== */
+nav {
+  text-align: right;
+  margin-bottom: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: blue;
+  margin-left: 10px;
+}
+nav a:hover {
+  color: red;
+}
+
+/* ===== HEADINGS & TEXT ===== */
+h1, h2 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+
+/* ===== 3 COLUMN LAYOUT ===== */
+.row {
+  display: flex;
+  gap: 10px;
+}
+.column {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* ===== FORM ===== */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+input, select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: lightblue;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: darkgreen;
+}

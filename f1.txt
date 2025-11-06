@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Contact Form</h2>
+
+  <form>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="topic">Select Topic:</label>
+    <select id="topic" name="topic">
+      <option value="">Choose one</option>
+      <option value="ai">Artificial Intelligence</option>
+      <option value="security">Cybersecurity</option>
+      <option value="cloud">Cloud Computing</option>
+    </select>
+
+    <div class="buttons">
+      <button type="submit">Save</button>
+      <button type="reset">Cancel</button>
+    </div>
+  </form>
+
+</body>
+</html>

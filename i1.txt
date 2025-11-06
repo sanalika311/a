@@ -1,0 +1,39 @@
+<nav>
+  <a href="index.html">Home</a>
+  <a href="data.html">Data</a>
+  <a href="images.html">Images</a>
+  <a href="form.html">Form</a>
+  <a href="author.html">Author</a>
+</nav>
+
+<h1>INFORMATION TECHNOLOGY</h1>
+
+<p>
+  Information technology helps us communicate, work and learn faster.
+  It connects people around the world and makes life easier.
+  Computers and the Internet are part of our everyday life.
+  New technologies appear every year.
+  IT continues to grow and change the world.
+</p>
+
+<div class="row">
+  <div class="column">
+    <h2>Artificial Intelligence</h2>
+    <p>AI helps machines learn and make smart decisions. It supports healthcare with faster diagnosis and improves education with personalized learning. Many apps use AI every day, often without us noticing.</p>
+  </div>
+  <div class="column">
+    <h2>Cybersecurity</h2>
+    <p>Cybersecurity keeps our data and privacy safe online. Strong passwords and updates protect devices from attacks. Companies use security tools to detect and stop threats quickly.</p>
+  </div>
+  <div class="column">
+    <h2>Cloud Computing</h2>
+    <p>The cloud lets us access files anywhere, anytime. Teams can share documents and work together in real time. It also saves costs by removing the need for expensive hardware.</p>
+  </div>
+</div>
+
+<p>
+  Learn more:
+  <a href="https://www.w3schools.com" target="_blank">W3Schools</a>,
+  <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>,
+  <a href="https://www.ibm.com/topics/information-technology" target="_blank">IBM IT</a>
+</p>

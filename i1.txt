@@ -1,41 +1,52 @@
-<nav>
-  <a href="index.html">Home</a>
-  <a href="data.html">Data</a>
-  <a href="images.html">Images</a>
-  <a href="form.html">Form</a>
-  <a href="author.html">Author</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Information Technology</title>
   <link rel="stylesheet" href="style.css">
-</nav>
+</head>
+<body>
 
-<h1>INFORMATION TECHNOLOGY</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="data.html">Data</a>
+    <a href="images.html">Images</a>
+    <a href="form.html">Form</a>
+    <a href="author.html">Author</a>
+  </nav>
 
-<p>
-  Information technology helps us communicate, work and learn faster.
-  It connects people around the world and makes life easier.
-  Computers and the Internet are part of our everyday life.
-  New technologies appear every year.
-  IT continues to grow and change the world.
-</p>
+  <h1>INFORMATION TECHNOLOGY</h1>
 
-<div class="row">
-  <div class="column">
-    <h2>Artificial Intelligence</h2>
-    <p>AI helps machines learn and make smart decisions. It supports healthcare with faster diagnosis and improves education with personalized learning. Many apps use AI every day, often without us noticing.</p>
+  <p>
+    Information technology helps us communicate, work and learn faster.
+    It connects people around the world and makes life easier.
+    Computers and the Internet are part of our everyday life.
+    New technologies appear every year.
+    IT continues to grow and change the world.
+  </p>
+
+  <div class="row">
+    <div class="column">
+      <h2>Artificial Intelligence</h2>
+      <p>AI helps machines learn and make smart decisions.</p>
+    </div>
+    <div class="column">
+      <h2>Cybersecurity</h2>
+      <p>Security keeps our data and privacy safe online.</p>
+    </div>
+    <div class="column">
+      <h2>Cloud Computing</h2>
+      <p>The cloud lets us access files anywhere, anytime.</p>
+    </div>
   </div>
-  <div class="column">
-    <h2>Cybersecurity</h2>
-    <p>Cybersecurity keeps our data and privacy safe online. Strong passwords and updates protect devices from attacks. Companies use security tools to detect and stop threats quickly.</p>
-  </div>
-  <div class="column">
-    <h2>Cloud Computing</h2>
-    <p>The cloud lets us access files anywhere, anytime. Teams can share documents and work together in real time. It also saves costs by removing the need for expensive hardware.</p>
-  </div>
-</div>
 
-<p>
-  Learn more:
-  <a href="https://www.w3schools.com" target="_blank">W3Schools</a>,
-  <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>,
-  <a href="https://www.ibm.com/topics/information-technology" target="_blank">IBM IT</a>
-</p>
+  <p>
+    Learn more: 
+    <a href="https://www.w3schools.com" target="_blank">W3Schools</a>, 
+    <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>, 
+    <a href="https://www.ibm.com/topics/information-technology" target="_blank">IBM IT</a>
+  </p>
 
+</body>
+</html>
